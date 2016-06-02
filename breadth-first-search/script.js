@@ -22,6 +22,7 @@ function BFS(s) { // s = start node
                 Q.push(i); // add child node to queue
             }
         }
+        console.log(Q, s);
     }
 }
 BFS(0);
